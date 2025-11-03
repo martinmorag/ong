@@ -25,12 +25,12 @@ export default function Home() {
           <div className="md:w-1/2 text-center md:text-left">
               {/* Title with Custom Color: #294859 */}
               <h1 className={`text-6xl font-extrabold ${TitleColor} mb-6 leading-tight`}>
-                Protegemos los derechos de niñas, niños y adolescentes
+                Defendemos los derechos de niñas y niños
               </h1>
               
               {/* Subtext in Black Text */}
               <p className="text-xl text-black mb-10">
-                Nacimos en 2010 con el objetivo de promover cambios sistémicos en la prevención y abordajes de las violencias.
+                Con 25 años de trabajando promoviendo la prevención de la violencia hacia los niños, en todas sus formas
               </p>
 
               {/* Custom Styled Button */}
@@ -66,71 +66,13 @@ export default function Home() {
               
               {/* Texto de la Misión */}
               <p className="text-xl md:text-2xl text-gray-700 leading-relaxed italic">
-                Nuestro compromiso es visibilizar, prevenir y erradicar toda forma de violencia que afecte a niñas, niños y adolescentes desde una perspectiva multisectorial, con el propósito de proteger a las infancias y sus derechos humanos.
+                Defender los derechos de los niños y brindarles protección frente a la violencia y la explotación.
               </p>
 
             </div>
           </section>
 
-          <section className="py-16 md:py-20 bg-white">
-            <div className="max-w-7xl mx-auto px-6">
-              
-              {/* Título Principal */}
-              <h2 className="text-4xl font-extrabold text-[#294859] mb-12 text-center">
-                Alianzas internacionales
-              </h2>
-              
-              {/* Bloque 1: Texto (Izquierda) e Imagen (Derecha) */}
-              <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
-                <div className="md:w-1/2">
-                  <h3 className={`text-2xl font-bold text-blue-400 mb-4`}>
-                    NUESTRO TRABAJO
-                  </h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    INSPIRE es una iniciativa global lanzada en 2016 por el Secretario General de Naciones Unidas que busca poner fin a la violencia contra niñas, niños y adolescentes. Con siete estrategias clave, brinda a los países un marco lógico para que puedan diseñar sus propios planes de prevención y abordaje de las violencias contra las infancias, basándose en lo que funciona a nivel mundial.
-                  </p>
-                </div>
-                
-                <div className="md:w-1/2 flex justify-center">
-                  {/* Placeholder de Imagen 1 - Ideal para el logo de INSPIRE o de la ONU/UNICEF */}
-                  <Image 
-                    src="/organization1.jpg" // CAMBIA ESTA RUTA
-                    alt="Logo de la Iniciativa INSPIRE" 
-                    width={550} 
-                    height={400} 
-                    className="rounded-lg shadow-xl"
-                  />
-                </div>
-              </div>
-
-              {/* Bloque 2: Imagen (Izquierda) y Texto (Derecha) - Usando 'md:flex-row-reverse' */}
-              <div className="flex flex-col md:flex-row-reverse items-center gap-12">
-                <div className="md:w-1/2">
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    INSPIRE fue declarado de interés nacional por la Cámara de Diputados y por el Senado, y de interés Institucional por el Consejo de la Magistratura de CABA.
-                    <br/><br/>
-                    En este contexto, desde Red por la Infancia asumimos un papel de liderazgo para impulsar la iniciativa INSPIRE CAPÍTULO ARGENTINA en todo el país y crear una Alianza Federal por la Niñez que nos permita compartir aprendizajes sobre las violencias y mejorar el diseño y la implementación de políticas públicas.
-                  </p>
-                </div>
-                
-                <div className="md:w-1/2 flex justify-center">
-                  {/* Placeholder de Imagen 2 - Ideal para logos de gobierno o un mapa de Argentina */}
-                  <Image 
-                    src="/organization2.jpg" // CAMBIA ESTA RUTA
-                    alt="Alianza Federal por la Niñez" 
-                    width={550} 
-                    height={400} 
-                    className="rounded-lg shadow-xl"
-                  />
-                </div>
-              </div>
-
-            </div>
-          </section>
-
           <ProgramsGallery />
-
-          <InterestResources />
       </main>
 
       <Footer />

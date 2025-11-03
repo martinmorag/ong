@@ -39,9 +39,9 @@ export default function Footer() {
           
           {/* Organization Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Red por la Infancia</h3>
+            <h3 className="text-lg font-semibold mb-3">Alianza por los niños</h3>
             <p className="text-sm">
-              Somos una fundación argentina que trabaja en la promoción y protección de los derechos de las niñas, niños, adolescentes y mujeres contra las violencias.
+              Somos una organización que trabaja para la promoción y protección de los derechos de niñas y niños.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-3">Contacto</h3>
             <p className="text-sm mb-4">
-              Email: <a href="mailto:info@redporlainfancia.org" className="underline hover:text-red-400">info@redporlainfancia.org</a>
+              Email: <a href="info@alianzaporlosniños.org" className="underline hover:text-red-400">info@alianzaporlosniños.org</a>
             </p>
             {/* Íconos de Redes Sociales */}
             <div className="flex space-x-4">
@@ -83,11 +83,8 @@ export default function Footer() {
 
         {/* Legal and Copyright */}
         <div className="mt-6 text-center text-sm">
-          <p className="mt-4 text-xs italic">
-            Red por la Infancia no es una organización de asistencia directa.
-          </p>
-          <div className="mt-4 border-t border-gray-700 pt-4">
-            &copy; {currentYear} Red por la Infancia
+          <div className="mt-4 pt-4">
+            &copy; {currentYear} Alianza por los niños
           </div>
         </div>
       </div>

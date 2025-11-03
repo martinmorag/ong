@@ -26,7 +26,6 @@ const ProgramCard = ({ year, name, imageSrc, linkHref }: ProgramCardProps) => (
       />
     </div>
     <div className="p-5 text-center">
-      <p className="text-sm font-semibold text-gray-500 mb-1">{year}</p>
       <h4 className="text-xl font-bold text-[#294859] group-hover:text-blue-400 transition duration-150">
         {name}
       </h4>
@@ -40,19 +39,19 @@ export default function ProgramsGallery() {
   const programs = [
     {
       year: 2024,
-      name: "Infancias sin Violencia",
+      name: "Defendamos los derechos de los niños",
       imageSrc: "/family1.jpg", // **CAMBIA ESTA RUTA** (Gato de caricatura)
       linkHref: "/programas/infancias-sin-violencia"
     },
     {
       year: 2023,
-      name: "Abuso Sexual en la Infancia",
+      name: "No al trabajo infantil",
       imageSrc: "/family2.jpg", // **CAMBIA ESTA RUTA** (Perro de caricatura)
       linkHref: "/programas/abuso-sexual-infancia"
     },
     {
       year: 2022,
-      name: "Víctimas y Familias",
+      name: "Infancias sin violencia",
       imageSrc: "/family3.jpg", // **CAMBIA ESTA RUTA** (Oso de caricatura)
       linkHref: "/programas/victimas-y-familias"
     },

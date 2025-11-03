@@ -7,7 +7,7 @@ import { useState } from 'react'; // <-- IMPORTANTE: Importar useState
 // Custom CSS classes for the buttons
 const GrayButtonClass = 'px-4 py-2 rounded-lg text-gray-500 hover:bg-gray-100 transition duration-150';
 const NecesitoAyudaClass = 'px-6 py-4 rounded-[35px] text-white bg-[#3fb5a6] hover:bg-[#32998a] transition duration-150 font-semibold shadow-md'; // #3fb5a6 (Teal-Green)
-const QuieroColaborarClass = 'px-6 py-4 rounded-[35px] text-white bg-[#db7445] hover:bg-[#c3653d] transition duration-150 font-semibold shadow-md'; // #db7445 (Orange-Brown)
+const QuieroColaborarClass = 'px-6 py-4 rounded-[35px] text-white bg-[#8C001A] hover:bg-[#660000] transition duration-150 font-semibold shadow-md'; // #db7445 (Orange-Brown)
 
 // Lista de programas para el dropdown
 const programs = [
@@ -29,17 +29,17 @@ export default function Header() {
             
             {/* Logo/Title on the Left */}
             <Link href="/" className="text-2xl font-bold text-blue-500">
-                <Image src="/image.jpeg" alt='logo' width={100} height={100} />
+                <Image src="/image.jpeg" alt='logo' width={150} height={150} />
             </Link>
             
             {/* Navigation Links and Buttons */}
             <nav className="flex space-x-3 items-center">
 
                 {/* Gray Buttons */}
-                <Link href="/quienes-somos" className={GrayButtonClass}>
+                <Link href="/" className={GrayButtonClass}>
                     ¿Quiénes Somos?
                 </Link>
-                <Link href="/nuestro-trabajo" className={`${GrayButtonClass} flex items-center`}>
+                <Link href="/" className={`${GrayButtonClass} flex items-center`}>
                     Nuestro Trabajo <span className="text-xs ml-1">▼</span>
                 </Link>
 
@@ -80,10 +80,6 @@ export default function Header() {
                     )}
                 </div>
                 
-                {/* Call-to-Action Buttons with Custom Colors */}
-                <Link href="/necesito-ayuda" className={NecesitoAyudaClass}>
-                    Necesito Ayuda
-                </Link>
                 <Link href="/quiero-colaborar" className={QuieroColaborarClass}>
                     Quiero Colaborar
                 </Link>
