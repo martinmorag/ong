@@ -11,10 +11,9 @@ const QuieroColaborarClass = 'px-6 py-4 rounded-[35px] text-white bg-[#8C001A] h
 
 // Lista de programas para el dropdown
 const programs = [
-    { name: 'Infancias sin Violencia', href: '/programas/infancias-sin-violencia' },
-    { name: 'Abuso Sexual en la Infancia', href: '/programas/abuso-sexual-infancia' },
-    { name: 'Víctimas y Familias', href: '/programas/victimas-y-familias' },
-    { name: 'Todas las Campañas', href: '/campanas' }, // Link general
+    { name: 'Defendamos los derechos de los niños', href: '/' },
+    { name: 'No al trabajo infantil', href: '/' },
+    { name: 'Infancias sin violencia', href: '/' },
 ];
 
 export default function Header() {
