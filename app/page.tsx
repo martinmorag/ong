@@ -30,7 +30,7 @@ export default function Home() {
               
               {/* Subtext in Black Text */}
               <p className="text-xl text-black mb-10">
-                Con 25 años de trabajando promoviendo la prevención de la violencia hacia los niños, en todas sus formas
+                25 años promoviendo la prevención de la violencia hacia niñas y niños
               </p>
 
               {/* Custom Styled Button */}

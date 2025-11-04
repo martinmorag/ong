@@ -39,7 +39,7 @@ export default function Footer() {
           
           {/* Organization Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Alianza por los niños</h3>
+            <h3 className="text-lg font-semibold mb-3">Alianza por la niñez</h3>
             <p className="text-sm">
               Somos una organización que trabaja para la promoción y protección de los derechos de niñas y niños.
             </p>
@@ -49,7 +49,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-3">Contacto</h3>
             <p className="text-sm mb-4">
-              Email: <a href="info@alianzaporlosniños.org" className="underline hover:text-red-400">info@alianzaporlosniños.org</a>
+              Email: <a href="info@alianzaporlaniñez.org" className="underline hover:text-red-400">info@alianzaporlaniñez.org</a>
             </p>
             {/* Íconos de Redes Sociales */}
             <div className="flex space-x-4">
@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Legal and Copyright */}
         <div className="mt-6 text-center text-sm">
           <div className="mt-4 pt-4">
-            &copy; {currentYear} Alianza por los niños
+            &copy; {currentYear} Alianza por la niñez
           </div>
         </div>
       </div>

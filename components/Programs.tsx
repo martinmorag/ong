@@ -45,14 +45,14 @@ export default function ProgramsGallery() {
     },
     {
       year: 2023,
-      name: "No al trabajo infantil",
+      name: "No al trabajo infantil ni al abuso sexual",
       imageSrc: "/family2.jpg", // **CAMBIA ESTA RUTA** (Perro de caricatura)
       linkHref: "/programas/abuso-sexual-infancia"
     },
     {
       year: 2022,
       name: "Infancias sin violencia",
-      imageSrc: "/family3.jpg", // **CAMBIA ESTA RUTA** (Oso de caricatura)
+      imageSrc: "/family3.jpeg", // **CAMBIA ESTA RUTA** (Oso de caricatura)
       linkHref: "/programas/victimas-y-familias"
     },
   ];
@@ -75,7 +75,7 @@ export default function ProgramsGallery() {
 
         {/* Botón para ver todos los programas (Opcional) */}
         <div className="text-center mt-12">
-          <Link href="/programas" className="px-6 py-3 rounded-lg text-white bg-blue-400 transition duration-150 font-semibold shadow-md">
+          <Link href="/" className="px-6 py-3 rounded-lg text-white bg-blue-400 transition duration-150 font-semibold shadow-md">
             Ver todos los Programas
           </Link>
         </div>

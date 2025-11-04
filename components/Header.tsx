@@ -12,7 +12,7 @@ const QuieroColaborarClass = 'px-6 py-4 rounded-[35px] text-white bg-[#8C001A] h
 // Lista de programas para el dropdown
 const programs = [
     { name: 'Defendamos los derechos de los niños', href: '/' },
-    { name: 'No al trabajo infantil', href: '/' },
+    { name: 'No al trabajo infantil ni al abuso sexual', href: '/' },
     { name: 'Infancias sin violencia', href: '/' },
 ];
 
@@ -28,7 +28,7 @@ export default function Header() {
             
             {/* Logo/Title on the Left */}
             <Link href="/" className="text-2xl font-bold text-blue-500">
-                <Image src="/image.jpeg" alt='logo' width={150} height={150} />
+                <Image src="/image.jpeg" alt='logo' width={120} height={120} />
             </Link>
             
             {/* Navigation Links and Buttons */}
