@@ -25,12 +25,12 @@ export default function Home() {
           <div className="md:w-1/2 text-center md:text-left">
               {/* Title with Custom Color: #294859 */}
               <h1 className={`text-6xl font-extrabold ${TitleColor} mb-6 leading-tight`}>
-                Defendemos los derechos de niñas y niños
+                Defendemos los derechos de niñas, niños y adolescentes
               </h1>
               
               {/* Subtext in Black Text */}
               <p className="text-xl text-black mb-10">
-                25 años promoviendo la prevención de la violencia hacia niñas y niños
+                25 años promoviendo la prevención de la violencia hacia niños y adolescentes
               </p>
 
               {/* Custom Styled Button */}
@@ -66,7 +66,7 @@ export default function Home() {
               
               {/* Texto de la Misión */}
               <p className="text-xl md:text-2xl text-gray-700 leading-relaxed italic">
-                Defender los derechos de los niños y brindarles protección frente a la violencia y la explotación.
+                Trabajamos para que cada niño, niña y adolescente pueda vivir una vida libre de violencia, explotación y desigualdad, accediendo a todos sus derechos.
               </p>
 
             </div>
